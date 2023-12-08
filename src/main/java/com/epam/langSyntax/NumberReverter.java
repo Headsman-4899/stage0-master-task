@@ -10,7 +10,7 @@ public class NumberReverter {
 
             int result = digit1 * 100 + digit2 * 10 + digit3;
 
-            System.out.println("result: " + result);
+            System.out.println(result);
         } else {
             System.out.println("provide a 3-digit number.");
         }

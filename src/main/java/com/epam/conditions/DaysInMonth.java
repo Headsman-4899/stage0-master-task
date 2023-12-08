@@ -8,12 +8,12 @@ public class DaysInMonth {
 
     public void printDays(int year, int month) {
         if (year < 0) {
-            System.out.println("Invalid date: Negative years are not accepted.");
+            System.out.println("invalid date");
             return;
         }
 
         if (month < 1 || month > 12) {
-            System.out.println("Invalid date: Month should be between 1 and 12.");
+            System.out.println("invalid date");
             return;
         }
 
@@ -24,7 +24,7 @@ public class DaysInMonth {
             default -> -1;
         };
 
-        System.out.println("The number of days in month " + month + " of year " + year + " is: " + daysInMonth + " days.");
+        System.out.println(daysInMonth);
     }
 
 }
