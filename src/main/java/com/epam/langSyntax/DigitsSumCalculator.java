@@ -11,7 +11,7 @@ public class DigitsSumCalculator {
 
             int sum = digit1 + digit2 + digit3 + digit4;
 
-            System.out.println("Sum of Digits: " + sum);
+            System.out.println(sum);
         } else {
             System.out.println("provide a 4-digit number.");
         }
